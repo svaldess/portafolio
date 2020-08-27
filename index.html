@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Sandra's Portafolio</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+         <!-- D3 Tooltip CSS -->
+        <link rel="stylesheet" href="css/d3-tip.css">
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top"></a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars ml-1"></i></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#aboutMe">About Me</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contactMe">Contact</a></li>
+                        
+                       <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li>-->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <div id="background"></div>
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-heading text-uppercase">Sandra Valdes Salas</div>
+                <div class="masthead-subheading">A data scientist with a curious mind.</div>
+                <!--<a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#cv">Project 1</a>-->
+                
+            </div>
+        </header>
+        <!-- Services-->
+        <section class="page-section" id="aboutMe">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">About Me</h2>
+                    <br>
+                    <p>
+                        I am a creative and fast learner data scientist, who loves solving problems and extracting useful knowledge from data. I am currently a graduate student pursuing 
+                        a <strong>M.S. in Data Science</strong> (George Washington University). I have working experience in project management, consulting, qualitative research and data analysis
+                        for business operations, risk analysis and social impact projects. I have strong programming skills in <strong>Python</strong> and <strong>R</strong> and knowledge 
+                        in <strong>Machine Learning, Data Mining</strong>, and <strong>Bayesian methods</strong>. I have excellent <strong>communication and visualization</strong> skills and I am 
+                        always looking for new projects and ideas. 
+                        
+                    </p>
+                   <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio Grid-->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Portfolio</h2>
+                    <h3 class="section-subheading text-muted">Check out some of my projects!</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1"
+                                ><div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/map_mx_poverty2.png" alt=""
+                            /></a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Data Visualizations & Storytelling</div>
+                                <br>
+                                <div class="portfolio-caption-subheading text-muted">D3 JavaScript | Tableau | HTML</div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2"
+                                ><div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/videogames_sales.png" alt=""
+                            /></a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Data Mining & Web Scraping</div>
+                                <br>
+                                <div class="portfolio-caption-subheading text-muted">Python | Pandas | Numpy</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3"
+                                ><div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/bayes3.png" alt=""
+                            /></a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Bayesian Analysis & Computing</div>
+                                <br>
+                                <div class="portfolio-caption-subheading text-muted">R | JAGS | MCMC</div>
+                  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4"
+                                ><div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/wordcloud.png" alt=""
+                            /></a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Natural Language Processing</div>
+                                <br>
+                                <div class="portfolio-caption-subheading text-muted">NLTK - SpaCy</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5"
+                                ><div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/matrix.png" alt=""
+                            /></a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Machine Learning</div>
+                                <br>
+                                <div class="portfolio-caption-subheading text-muted">Scikit-Sklearn | Tensorflow</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- Skills -->
+        <section class="page-section" id="skills">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Skills</h2>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h4>Project Management</h4>
+                        <p class="text-muted">
+                            I have working experience in more than 30 projects involving social impact and risk assessments for the private sector.
+                            For 4 years, I helped companies understand Mexico's political, economic and social landscape so that they 
+                            could carry out their investment projects succesfully. I have experience in qualitative and quantitative research. 
+                        </p>
+                        <br>
+                    </div>
+                    <div class="col-lg-6">
+                        <h4>Machine Learning & Data Mining</h4>
+                        <p class="text-muted">
+                            I am proficient with Python (Pandas, Numpy, Matplotlib) for cleaning, processing, and executing algorithms for mining data.
+                            I have good knowledge of Scikit-Learn and Tensorflow for supervised and unsupervised learning. I have knowledge on neural networks analysis.
+                        </p>
+                        <br>
+                    </div>
+                    <div class="col-lg-6">
+                        <h4>Statistical and Bayesian Computing</h4>
+                        <p class="text-muted">I am proficient with R for data wrangling and statistical analysis (dplyr, ggplot).
+                            I have knowledge on JAGS and Markov Chain Monte Carlo algorithms for performing Bayesian analysis.</p>
+                        <br>
+                    </div>
+                    <div class="col-lg-6">
+                        <h4>Natural Language Processing</h4>
+                        <p class="text-muted">I am proficient with Spacy and NLTK for mining and analyzing texts. 
+                            I have performed web scraping and data extraction via APIs.</p>
+                        <br>''
+                    </div>
+                    <div class="col-lg-6">
+                        <h4>Communication and Visualization of Data</h4>
+                        <p class="text-muted">I have knowledge of Tableau and Google Charts API, 
+                            as well as hard coding tools such as D3 JavaScript. 
+                            I have working experience presenting results to clients, team members and other stakeholders.</p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact -->
+        <section class="page-section" id="contactMe">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Contact</h2>
+                    <h3 class="section-subheading text-muted">You can find me on:</h3>
+                    <a class="btn btn-dark btn-social mx-2" href="https://github.com/svaldess"><i class="fab fa-github"></i></a> Github  
+                    <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/sandra-valdes/"><i class="fab fa-linkedin-in"></i></a> Linkedin 
+                    <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/SandraValdesS"><i class="fab fa-twitter"></i></a> Twitter 
+                    <a class="btn btn-dark btn-social mx-2" href="#"><i class="fas fa-envelope"></i></a> svaldes.salas@gmail.com 
+                    <p>
+                  
+                    </p>
+                   <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-left">Copyright © Sandra Valdes 2020</div>
+                    <!-- 
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="https://github.com/svaldess"><i class="fab fa-github"></i></a><a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/sandra-valdes/"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    
+                    <div class="col-lg-4 text-lg-right"><a class="mr-3" href="#!">Privacy Policy</a><a href="#!">Terms of Use</a></div>
+                </div>
+                -->
+            </div>
+        </footer>
+        <!-- Portfolio Modals-->
+        <!-- Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h3 class="text-uppercase">Data Visualizations and Storytelling</h3>
+                                    <!--<p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/01-full.jpg" alt="" />-->
+                                    <br>
+                                    <h4>Poverty trends in Mexico: before and after COVID-19</h4>
+                                    <p>
+                                        This project visualizes statistics of poverty and access to health services in Mexico (2008-2018). 
+                                        Epidemiology statistics of COVID-19 from January 1st, 2020 to July 1st, 2020, were included to gain insights about the social effects of the pandemic. 
+                                        The data preprocessing, cleaning, and consolidation was done in Python 3.7.6. 
+                                        <strong>D3 Java Script Library</strong> and <strong>Tableau Public</strong> were used for creating the visualizations.
+                                        <br>
+                                        <strong>Check out this 
+                                            <a href="https://svaldess.github.io/poverty-and-covid-mexico/" target="_blank">project</a>.
+                                        </strong>
+                                    </p>  
+                                    <br>          
+                                    <h4>Homicides in Mexico</h4>
+                                    <p>
+                                        Animated bar chart race that shows the top 8 states with the largest number of homicides.
+                                        The chart was built using <strong>D3 Javascript Library</strong>.
+                                        <br>
+                                        <strong>Check out this 
+                                            <a href="https://svaldess.github.io/15-years-of-homicides-mexico/" target="_blank">graph</a>.
+                                        </strong>
+                                    </p>
+                                    <br>          
+                                    <h4>The economic effects of the pandemy in Mexico</h4>
+                                    <p>
+                                        Animated multi-series line chart that displays the monthly physical volume of production of the secondary and tertiary sectors between January 2013 and June 2020.
+                                        The chart was built using <strong>D3 Javascript Library</strong>.
+                                        <br>
+                                        <strong>Check out this 
+                                            <a href="https://svaldess.github.io/economia_mexico/" target="_blank">graph</a>.
+                                        </strong>
+                                    </p>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fas fa-times mr-1"></i>Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h3 class="text-uppercase">Data Mining</h3>
+                                    <!--<p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/01-full.jpg" alt="" />-->
+                                    <br>
+                                    <h4>Mining and web scraping the videogames global market data</h4>
+                                    <p>
+                                        In this project I explore the global gaming industry, a dynamic and complex sector. 
+                                        Python is used for the extraction, cleaning, processing and analysis of data.
+                                        A <strong>web scraping</strong> code was built to extract the data from VGCchartz. 
+                                        <strong>Plotly</strong> was used for data visualization.
+                                    </p>
+                                    <h4>A decade of cancer trends in the U.S.</h4>
+                                    <p> 
+                                        This project offers a broad picture of the major trends of cancer types in the U.S. between 2006 and 2016, 
+                                        as well as the most common cancer types in terms of incidence and mortality. 
+                                        Python was used for the processing and analysis of data. <strong>Matplolitb and Seaborn</strong> were used for data visualization.
+                                    </p>
+                                    <h4>Predicting heart failure with a KNN classifier</h4>
+                                    <p>
+                                        First, by building a KNN classifier from scratch, this notebook aims at predicting heart failure while illustrating 
+                                        how KNN algorithm works. The KNN model performs 10-fold cross validation to test the model. In a second part, Sklearn KNeighbors 
+                                        Classifier is used to illustrate how fast we can perform classification based on KNN with a few lines of code.
+                                    </p>
+                                    <h6>Explore my projects in
+                                        <a href="https://github.com/svaldess/Data_Mining_dossier" target="_blank">Github</a>.
+                                    </h6>
+                                    <br>
+                                    
+                                    
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fas fa-times mr-1"></i>Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h3 class="text-uppercase">Bayesian approaches to Data Science</h3>
+                                    <br>
+                                    <h4>Hierarchical Bayesian model to determine the impact of household income in the U.S. 2016 presidential elections</h4>
+                                    <p> 
+                                        Traditionally, richer people are more likely to vote for Republican candidates while poorer people are more inclined to vote for Democratic candidates. 
+                                        However, in recent decades, poorer states have voted for conservative Republicans while rich states favor liberal Democrats. 
+                                        This project addresses the question if votes varied significantly across the 50 states based on the median household income 
+                                        during the U.S. presidential elections of 2016. <strong>Markov Chain Monte Carlo (MCMC)</strong> is used to generate a sequence of samples from the posterior distribution of the parameters. 
+                                        The model was run in <strong>R</strong>, using <strong>JAGS package</strong>.
+                                        <br>
+                                        <strong>Check out this project in my
+                                            <a href="https://github.com/svaldess/Bayesian-Analysis-US-2016-Elections" target="_blank">Github</a>.
+                                        </strong>
+                                    </p>
+                                    
+                                    <h4>Predicting political affiliation with Näive Bayes</h4>
+                                    <p>
+                                        The aim is to predict the political affiliation of a person based on a Naive Bayes classifier. 
+                                        Two datasets are explored: 
+                                        voting records of bills in the U.S. Congress, and a public opinion poll which explores topics such as
+                                        climate change, federal funding of scientific research, the use of vaccines, etc. 
+                                        <br>
+                                        <strong>Check out this project in my
+                                            <a href="https://github.com/svaldess/Naive-Bayes-political-affiliation-classifier" target="_blank">Github</a>.
+                                        </strong>
+                                    </p>
+                                    
+                                    
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fas fa-times mr-1"></i>Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 4-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h3 class="text-uppercase">Natural Language Processing</h3>
+                                    <br>
+                                    <h4>Various projects</h4>
+                                    <p>This dossier includes some of my NLP projects, such as: entity tagging in news articles from Reuters;
+                                        entity annotation in various documents; analysis of the "readibility" of famous speeches (Flesch score); extraction of jargon from job descriptions; among others.
+                                    </p>
+                                    <h4>Automatic terminology extraction from data science job description</h4>
+                                    <p>
+                                        Project elaborated with Anwesha Tomar and Marta Matosas Fonolleda.
+                                        This project addresses the question if data science terminology found in job descriptions changes across different US cities and different industries.
+                                    </p>
+                                    <h6>Explore my projects in
+                                        <a href="https://github.com/svaldess/NLP_dossier" target="_blank">Github</a>.
+                                    </h6>
+                                    <br>
+                                   
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fas fa-times mr-1"></i>Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 5-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h3 class="text-uppercase">Machine Learning</h3>
+                                    <br>
+                                    <h4>Understanding recidivism: a Logistic Regression model for clasifying new offenses</h4>
+                                    <p>
+                                        The aim is to predict new offenses committed by offenders based on their previous offense, 
+                                        the type of release (parole, parole to detainer, etc), and demographical features of the offender 
+                                        (age, sex, race/ethnicity, etc) in Iowa, USA. <strong>Scikit-Learn</strong> was used. Logistic Regression, Decision Tree and Random Forest models were explored. 
+                                        Hyperparameter tuning was performed. 
+                                    </p>
+                                    <h4>Analysis of credit card patterns: K-Means Clustering and linear Regression Model</h4>
+                                    <p>
+                                        In this notebook I identify clusters of credit card users, using <strong>K-means clustering and Principal Components Analysis</strong>. This is useful for creating better market strategies targeting particular clusters of consumers.
+                                        Then, using a <strong>Linear Regression model with Ridge regularization</strong>, I predict the amount of payments done by the users, based on features the account balance, how frequently the balance is updated, the frequency and amount of purchases on the account, 
+                                        the credit card limit, among other features. <strong>Scikit-Learn</strong> was used. 
+                                    </p>
+                                    <h4>Predicting temperature with Linear Regression</h4>
+                                    <p>
+                                        Here I explore the possibility of predicting the temperature in a given day based on numerical features 
+                                        such as precipitation, humidity, wind speed, among others. 
+                                        Hyperparameter tuning is used to compare the prediction given by regression models with different types 
+                                        regularization: Lasso, Ridge and Elastic Net. <strong>Scikit-Learn</strong> was use for this project. 
+                                    </p>
+                                    <h6>Explore my projects in
+                                        <a href="https://github.com/svaldess/Machine_Learning_dossier" target="_blank">Github</a>.
+                                    </h6>
+                                    <br>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fas fa-times mr-1"></i>Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 6-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h3 class="text-uppercase">Time series analysis</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- External JS libraries -->
+        <script src="https://d3js.org/d3.v3.js"></script>
+        <!-- Custom JS -->
+        <script src="js/collision.js"></script>
+    </body>
+</html>
